@@ -203,7 +203,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 text = "💀 El Pou ha alcanzado su destino final",
                 fontSize = 16.sp,
                 modifier = Modifier.padding(top = 12.dp)
+
             )
+            print("muerto")
         }
     }
 }
